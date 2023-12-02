@@ -13,6 +13,7 @@ namespace Tyuiu.ZargarovAA.Sprint6.Task1.V22.Test
             DataService ds = new DataService();
             int start = -5;
             int stop = 5;
+
             int len = stop - start + 1;
             double[] wait = new double[len];
             wait[0] = -9.10;
