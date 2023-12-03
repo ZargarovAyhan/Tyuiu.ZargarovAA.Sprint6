@@ -17,6 +17,7 @@ namespace Tyuiu.ZargarovAA.Sprint6.Task3.V25.Lib
             for (int i = 0; i < matrix.GetLength(0); ++i)
             {
                 column[i] = matrix[i, 2];
+
             }
 
             Array.Sort(column);
