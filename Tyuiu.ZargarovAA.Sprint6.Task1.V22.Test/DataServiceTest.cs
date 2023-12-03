@@ -20,6 +20,7 @@ namespace Tyuiu.ZargarovAA.Sprint6.Task1.V22.Test
             wait[1] = 1.55;
             wait[2] = 292.78;
             wait[3] = -0.57;
+
             wait[4] = -0.35;
             wait[5] = 2.00;
             wait[6] = 4.35;
