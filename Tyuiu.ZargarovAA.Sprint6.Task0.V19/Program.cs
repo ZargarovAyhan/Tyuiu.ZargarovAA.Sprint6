@@ -5,6 +5,7 @@ using System.Threading.Tasks;
 using System.Windows.Forms;
 
 namespace Tyuiu.ZargarovAA.Sprint6.Task0.V19
+
 {
     static class Program
     {

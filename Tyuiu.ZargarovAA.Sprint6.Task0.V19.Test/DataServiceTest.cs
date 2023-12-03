@@ -7,6 +7,7 @@ namespace Tyuiu.ZargarovAA.Sprint6.Task0.V19.Test
     [TestClass]
     public class DataServiceTest
     {
+
         [TestMethod]
         public void ValidCalc()
         {
