@@ -50,12 +50,12 @@ namespace Tyuiu.ZargarovAA.Sprint6.Task3.V25
             // 
             // groupBoxTask_EKP
             // 
-            this.groupBoxTask_EKP.BackColor = System.Drawing.Color.Lavender;
+            this.groupBoxTask_EKP.BackColor = System.Drawing.Color.LightPink;
             this.groupBoxTask_EKP.Controls.Add(this.dataGridViewTaskMatrix_EKP);
             this.groupBoxTask_EKP.Controls.Add(this.textBoxTask_EKP);
             this.groupBoxTask_EKP.Location = new System.Drawing.Point(13, 13);
             this.groupBoxTask_EKP.Name = "groupBoxTask_EKP";
-            this.groupBoxTask_EKP.Size = new System.Drawing.Size(449, 258);
+            this.groupBoxTask_EKP.Size = new System.Drawing.Size(437, 258);
             this.groupBoxTask_EKP.TabIndex = 0;
             this.groupBoxTask_EKP.TabStop = false;
             this.groupBoxTask_EKP.Text = "Условие";
@@ -78,7 +78,7 @@ namespace Tyuiu.ZargarovAA.Sprint6.Task3.V25
             dataGridViewCellStyle1.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
             this.dataGridViewTaskMatrix_EKP.DefaultCellStyle = dataGridViewCellStyle1;
             this.dataGridViewTaskMatrix_EKP.GridColor = System.Drawing.Color.DarkViolet;
-            this.dataGridViewTaskMatrix_EKP.Location = new System.Drawing.Point(253, 37);
+            this.dataGridViewTaskMatrix_EKP.Location = new System.Drawing.Point(231, 37);
             this.dataGridViewTaskMatrix_EKP.Name = "dataGridViewTaskMatrix_EKP";
             this.dataGridViewTaskMatrix_EKP.RowHeadersVisible = false;
             this.dataGridViewTaskMatrix_EKP.Size = new System.Drawing.Size(178, 178);
@@ -102,7 +102,7 @@ namespace Tyuiu.ZargarovAA.Sprint6.Task3.V25
             // 
             // groupBoxOutputData_EKP
             // 
-            this.groupBoxOutputData_EKP.BackColor = System.Drawing.Color.LavenderBlush;
+            this.groupBoxOutputData_EKP.BackColor = System.Drawing.Color.PaleVioletRed;
             this.groupBoxOutputData_EKP.Controls.Add(this.pictureBox4_EKP);
             this.groupBoxOutputData_EKP.Controls.Add(this.dataGridViewMatrixResult_EKP);
             this.groupBoxOutputData_EKP.Controls.Add(this.labelResult_EKP);
@@ -159,8 +159,8 @@ namespace Tyuiu.ZargarovAA.Sprint6.Task3.V25
             // 
             // buttonReference_EKP
             // 
-            this.buttonReference_EKP.BackColor = System.Drawing.Color.DarkSlateBlue;
-            this.buttonReference_EKP.Font = new System.Drawing.Font("Segoe Print", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.buttonReference_EKP.BackColor = System.Drawing.Color.LightPink;
+            this.buttonReference_EKP.Font = new System.Drawing.Font("Blackletter Shadow", 9.749999F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.buttonReference_EKP.Location = new System.Drawing.Point(478, 243);
             this.buttonReference_EKP.Name = "buttonReference_EKP";
             this.buttonReference_EKP.Size = new System.Drawing.Size(59, 50);
@@ -172,8 +172,8 @@ namespace Tyuiu.ZargarovAA.Sprint6.Task3.V25
             // 
             // buttonDone_EKP
             // 
-            this.buttonDone_EKP.BackColor = System.Drawing.Color.MediumOrchid;
-            this.buttonDone_EKP.Font = new System.Drawing.Font("Segoe Print", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.buttonDone_EKP.BackColor = System.Drawing.Color.Pink;
+            this.buttonDone_EKP.Font = new System.Drawing.Font("Maginors", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.buttonDone_EKP.Location = new System.Drawing.Point(566, 243);
             this.buttonDone_EKP.Name = "buttonDone_EKP";
             this.buttonDone_EKP.Size = new System.Drawing.Size(90, 50);
@@ -187,7 +187,7 @@ namespace Tyuiu.ZargarovAA.Sprint6.Task3.V25
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.Color.Lavender;
+            this.BackColor = System.Drawing.Color.OldLace;
             this.ClientSize = new System.Drawing.Size(679, 300);
             this.Controls.Add(this.buttonDone_EKP);
             this.Controls.Add(this.buttonReference_EKP);
