@@ -13,6 +13,7 @@ namespace Tyuiu.ZargarovAA.Sprint6.Task2.V4.Lib
         public double[] GetMassFunction(int startValue, int stopValue)
 
         {
+
             double[] result = new double[(stopValue - startValue) + 1];
             double y;
 

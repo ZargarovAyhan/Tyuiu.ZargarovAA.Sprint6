@@ -13,6 +13,7 @@ namespace Tyuiu.ZargarovAA.Sprint6.Task2.V4
         /// </summary>
         [STAThread]
         static void Main()
+
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);

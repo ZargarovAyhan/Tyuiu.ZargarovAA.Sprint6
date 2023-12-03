@@ -19,6 +19,7 @@ namespace Tyuiu.ZargarovAA.Sprint6.Task2.V4.Test
             double[] valueWaitArray = new double[(stopValue - startValue) + 1];
 
             valueWaitArray[0] = -15.60;
+
             valueWaitArray[1] = -12.35;
             valueWaitArray[2] = -10.72;
             valueWaitArray[3] = -8.88;
