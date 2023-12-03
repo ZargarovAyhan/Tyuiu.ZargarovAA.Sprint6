@@ -24,6 +24,7 @@ namespace Tyuiu.ZargarovAA.Sprint6.Task2.V4.Test
             valueWaitArray[2] = -10.72;
             valueWaitArray[3] = -8.88;
             valueWaitArray[4] = -2.16;
+
             valueWaitArray[5] = 3.25;
             valueWaitArray[6] = 6.64;
             valueWaitArray[7] = 10.30;

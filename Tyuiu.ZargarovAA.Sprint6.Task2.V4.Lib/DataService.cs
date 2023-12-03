@@ -15,6 +15,7 @@ namespace Tyuiu.ZargarovAA.Sprint6.Task2.V4.Lib
         {
 
             double[] result = new double[(stopValue - startValue) + 1];
+
             double y;
 
             int count = 0;
