@@ -17,6 +17,7 @@ namespace Tyuiu.ZargarovAA.Sprint6.Task6.V29
             if (disposing && (components != null))
             {
                 components.Dispose();
+
             }
             base.Dispose(disposing);
         }
@@ -38,6 +39,7 @@ namespace Tyuiu.ZargarovAA.Sprint6.Task6.V29
             this.panelLeft_ZAA = new System.Windows.Forms.Panel();
             this.groupBoxIn_ZAA = new System.Windows.Forms.GroupBox();
             this.textBoxIn_ZAA = new System.Windows.Forms.TextBox();
+
             this.panelRight_ZAA = new System.Windows.Forms.Panel();
             this.groupBoxOut_ZAA = new System.Windows.Forms.GroupBox();
             this.textBoxOut_ZAA = new System.Windows.Forms.TextBox();

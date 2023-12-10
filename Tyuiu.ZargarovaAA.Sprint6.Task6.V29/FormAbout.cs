@@ -13,11 +13,12 @@ namespace Tyuiu.ZargarovAA.Sprint6.Task6.V29
     public partial class FormAbout : Form
     {
         public FormAbout()
+
         {
             InitializeComponent();
         }
 
-        private void buttonOk_SAA_Click(object sender, EventArgs e)
+        private void buttonOk_ZAA_Click(object sender, EventArgs e)
         {
             this.Close();
         }

@@ -15,6 +15,8 @@ namespace Tyuiu.ZargarovAA.Sprint6.Task6.V29.Lib
             string resStr = "";
             char ch = 'i';
 
+
+
             string[] words = File.ReadAllText(path).Split(' ');
             foreach (string word in words)
             {
