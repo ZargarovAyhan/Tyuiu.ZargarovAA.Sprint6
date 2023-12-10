@@ -37,6 +37,7 @@ namespace Tyuiu.ZargarovAA.Sprint6.Task4.V16
             this.buttonHelp_ZAA = new System.Windows.Forms.Button();
             this.groupBoxInput_ZAA = new System.Windows.Forms.GroupBox();
             this.labelEnd_ZAA = new System.Windows.Forms.Label();
+
             this.labelStart_ZAA = new System.Windows.Forms.Label();
             this.textBoxStopStep_ZAA = new System.Windows.Forms.TextBox();
             this.textBoxStartStep_ZAA = new System.Windows.Forms.TextBox();

@@ -19,6 +19,7 @@ namespace Tyuiu.ZargarovAA.Sprint6.Task4.V16.Lib
             int count = 0;
             for (int x = startValue; x <= stopValue; x++)
             {
+
                 y = Math.Round(Math.Cos(x) / (x - 0.4) + Math.Sin(x) * 8 * x + 2, 2);
                 valueArray[count] = y;
                 count++;
