@@ -16,6 +16,7 @@ namespace Tyuiu.ZargarovAA.Sprint6.Task7.V28.Lib
 
             for (int c = 0; c < columns; c++)
             {
+
                 if (matrix[6, c] != 13)
                 {
                     matrix[6, c] = 0;

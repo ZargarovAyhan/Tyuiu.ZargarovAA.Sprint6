@@ -125,6 +125,7 @@ namespace Tyuiu.ZargarovAA.Sprint6.Task7.V28
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(587, 210);
+
             this.Controls.Add(this.buttonOK);
             this.Controls.Add(this.labelInfo);
             this.Controls.Add(this.labelProductName);
