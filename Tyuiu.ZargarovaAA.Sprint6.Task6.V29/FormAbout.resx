@@ -117,14 +117,16 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <data name="textBoxTask_ZAA.Text" xml:space="preserve">
-    <value>Дан массив 5 на 5 элементов. Выполнить сортировку по возрастанию в третьем столбце.
+  <data name="labelInfo_ZAA.Text" xml:space="preserve">
+    <value>Разработчик: Заргаров А. А.
+группа - ИИПБ -23 -2
 
-14      5    -9     18   21
--5    -12  -12      4   28
-27     -2  -14    23   27
--19  -15   17    15     1
- 33      2     6    24   24
+Программа разработчика в рамках изучения языка C#
+
+Тюменский индустривальный Университет (с)2023
+Высшая школа цифровых технологий 
+
+Внутреннее имя: Tyuiu.ZargarovAA.Sprint6.Task6.V29
 
 </value>
   </data>

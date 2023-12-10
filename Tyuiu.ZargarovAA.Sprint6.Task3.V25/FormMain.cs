@@ -34,53 +34,53 @@ namespace Tyuiu.ZargarovAA.Sprint6.Task3.V25
             int rows = matrix.GetLength(0);
             int columns = matrix.GetLength(1);
 
-            dataGridViewTaskMatrix_EKP.ColumnCount = columns;
-            dataGridViewTaskMatrix_EKP.RowCount = rows;
+            dataGridViewTaskMatrix_ZAA.ColumnCount = columns;
+            dataGridViewTaskMatrix_ZAA.RowCount = rows;
 
             for (int i = 0; i < columns; i++)
             {
-                dataGridViewTaskMatrix_EKP.Columns[i].Width = 35;
+                dataGridViewTaskMatrix_ZAA.Columns[i].Width = 35;
             }
 
             for (int i = 0; i < rows; i++)
             {
-                dataGridViewTaskMatrix_EKP.Rows[i].Height = 35;
+                dataGridViewTaskMatrix_ZAA.Rows[i].Height = 35;
                 for (int j = 0; j < columns; j++)
                 {
-                    dataGridViewTaskMatrix_EKP.Rows[i].Cells[j].Value = Convert.ToString(matrix[i, j]);
+                    dataGridViewTaskMatrix_ZAA.Rows[i].Cells[j].Value = Convert.ToString(matrix[i, j]);
                 }
             }
         }
 
-        private void buttonDone_EKP_Click(object sender, EventArgs e)
+        private void buttonDone_ZAA_Click(object sender, EventArgs e)
         {
             int[,] result = ds.Calculate(matrix);
 
             int rows = result.GetLength(0);
             int columns = result.GetLength(1);
 
-            dataGridViewMatrixResult_EKP.ColumnCount = columns;
-            dataGridViewMatrixResult_EKP.RowCount = rows;
+            dataGridViewMatrixResult_ZAA.ColumnCount = columns;
+            dataGridViewMatrixResult_ZAA.RowCount = rows;
 
             for (int i = 0; i < columns; i++)
             {
-                dataGridViewMatrixResult_EKP.Columns[i].Width = 35;
+                dataGridViewMatrixResult_ZAA.Columns[i].Width = 35;
 
             }
 
             for (int i = 0; i < rows; i++)
             {
-                dataGridViewMatrixResult_EKP.Rows[i].Height = 35;
+                dataGridViewMatrixResult_ZAA.Rows[i].Height = 35;
                 for (int j = 0; j < columns; j++)
                 {
-                    dataGridViewMatrixResult_EKP.Rows[i].Cells[j].Value = Convert.ToString(result[i, j]);
+                    dataGridViewMatrixResult_ZAA.Rows[i].Cells[j].Value = Convert.ToString(result[i, j]);
                 }
             }
 
-            pictureBox4_EKP.Visible = false;
+            pictureBox4_ZAA.Visible = false;
         }
 
-        private void buttonReference_EKP_Click(object sender, EventArgs e)
+        private void buttonReference_ZAA_Click(object sender, EventArgs e)
         {
             MessageBox.Show("Таск 3 выполнил студент группы ИИПБ-23-2 Заргаров Айхан Ахатович", "Сообщение", MessageBoxButtons.OK);
         }
@@ -90,7 +90,7 @@ namespace Tyuiu.ZargarovAA.Sprint6.Task3.V25
 
         }
 
-        private void dataGridViewTaskMatrix_EKP_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        private void dataGridViewTaskMatrix_ZAA_CellContentClick(object sender, DataGridViewCellEventArgs e)
         {
 
         }

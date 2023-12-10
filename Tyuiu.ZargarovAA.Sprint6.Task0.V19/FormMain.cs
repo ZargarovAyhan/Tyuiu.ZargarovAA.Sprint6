@@ -45,5 +45,9 @@ namespace Tyuiu.ZargarovAA.Sprint6.Task0.V19
             MessageBox.Show("Таск 0 выполнил студент ИИПБ - 23 -2 Заргаров АЙхан Ахатович", "сообщение") ;
         }
 
+        private void textBoxTask_TextChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }

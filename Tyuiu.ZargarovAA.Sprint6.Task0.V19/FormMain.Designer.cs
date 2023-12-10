@@ -31,6 +31,7 @@ namespace Tyuiu.ZargarovAA.Sprint6.Task0.V19
         {
             this.backgroundWorker1 = new System.ComponentModel.BackgroundWorker();
             this.groupBoxTask = new System.Windows.Forms.GroupBox();
+            this.textBoxTask = new System.Windows.Forms.TextBox();
             this.pictureBoxequation = new System.Windows.Forms.PictureBox();
             this.groupBoxInputData = new System.Windows.Forms.GroupBox();
             this.labelVarA = new System.Windows.Forms.Label();
@@ -40,7 +41,6 @@ namespace Tyuiu.ZargarovAA.Sprint6.Task0.V19
             this.TextBoxResults = new System.Windows.Forms.TextBox();
             this.buttonInformation = new System.Windows.Forms.Button();
             this.buttonDone = new System.Windows.Forms.Button();
-            this.textBoxTask = new System.Windows.Forms.TextBox();
             this.groupBoxTask.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBoxequation)).BeginInit();
             this.groupBoxInputData.SuspendLayout();
@@ -57,6 +57,17 @@ namespace Tyuiu.ZargarovAA.Sprint6.Task0.V19
             this.groupBoxTask.TabIndex = 0;
             this.groupBoxTask.TabStop = false;
             this.groupBoxTask.Text = "Условие";
+            // 
+            // textBoxTask
+            // 
+            this.textBoxTask.Location = new System.Drawing.Point(9, 19);
+            this.textBoxTask.Multiline = true;
+            this.textBoxTask.Name = "textBoxTask";
+            this.textBoxTask.ReadOnly = true;
+            this.textBoxTask.Size = new System.Drawing.Size(290, 174);
+            this.textBoxTask.TabIndex = 2;
+            this.textBoxTask.Text = "Вычислить выражение по формуле";
+            this.textBoxTask.TextChanged += new System.EventHandler(this.textBoxTask_TextChanged);
             // 
             // pictureBoxequation
             // 
@@ -142,16 +153,6 @@ namespace Tyuiu.ZargarovAA.Sprint6.Task0.V19
             this.buttonDone.Text = "Выполнить";
             this.buttonDone.UseVisualStyleBackColor = true;
             this.buttonDone.Click += new System.EventHandler(this.buttonDone_Click);
-            // 
-            // textBoxTask
-            // 
-            this.textBoxTask.Location = new System.Drawing.Point(9, 19);
-            this.textBoxTask.Multiline = true;
-            this.textBoxTask.Name = "textBoxTask";
-            this.textBoxTask.ReadOnly = true;
-            this.textBoxTask.Size = new System.Drawing.Size(290, 174);
-            this.textBoxTask.TabIndex = 2;
-            this.textBoxTask.Text = "Вычислить выражение по формуле";
             // 
             // FormMain
             // 
