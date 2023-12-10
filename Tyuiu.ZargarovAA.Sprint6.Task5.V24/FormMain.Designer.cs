@@ -21,6 +21,7 @@ namespace Tyuiu.ZargarovAA.Sprint6.Task5.V24
             base.Dispose(disposing);
         }
 
+
         #region Windows Form Designer generated code
 
         /// <summary>

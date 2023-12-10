@@ -14,6 +14,7 @@ namespace Tyuiu.ZargarovAA.Sprint6.Task5.V24.Lib
         public double[] LoadFromDataFile(string path)
         {
 
+
             using (StreamReader reader = new StreamReader(path))
             {
                 string line;

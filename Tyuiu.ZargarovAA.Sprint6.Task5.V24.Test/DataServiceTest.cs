@@ -12,6 +12,7 @@ namespace Tyuiu.ZargarovAA.Sprint6.Task5.V24.Test
         public void TestMethod1()
         {
             DataService ds = new DataService();
+
             string path = @"C:\DataSprint6\InPutFileTask5V24.txt";
 
             CollectionAssert.AreEqual(new double[] { -17, 12, -14.32, 5, -7.84, 12.89, -1.57, -3.64, -13.26, -8.91, -17.77, 35, -9, 13.83, 12.76, 8.86, -1.49, -7 }, ds.LoadFromDataFile(path));
